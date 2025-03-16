@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#Main-Text{
+    color: #1F314F;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+#Little-Text{
+    color: hsl(216, 15%, 48%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+
+#Box{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 499px;
+    width: 320px;
+}
+
+
+#qr-code{
+    width: 288px;
+    height: 288px;
+    padding: 16px;
+    border-radius: 30px;
+}
